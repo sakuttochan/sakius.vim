@@ -1,15 +1,4 @@
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"
-" Name:           kalisi
-" Author:         Arthur Jaron
-" EMail:          hifreeo@gmail.com
-" Version:        0.8.0
-" Last Change:    2015.09.27
-"
-"
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 " Settings
 if !exists('g:kalisi_recolor_quickfixsigns')
   let g:kalisi_recolor_quickfixsigns = 1
@@ -18,7 +7,7 @@ endif
 " the default scheme is 'light'
 if &background == "dark"
   hi clear
-  let g:colors_name = "kalisi"
+  let g:colors_name = "sakius"
 
   hi Normal 	        guifg=#d0d0d0 guibg=#404042  gui=none
 
@@ -29,7 +18,7 @@ if &background == "dark"
   hi Constant 	      guifg=#ffaf00                   gui=bold
   hi String 	        guifg=#ffc63f
   hi Character        guifg=#c85bff
-  hi Number           guifg=#ffad3f
+  hi Number           guifg=#ff8787
   hi Boolean 	        guifg=#94be54
   hi Float            guifg=#fff650
   
@@ -39,7 +28,7 @@ if &background == "dark"
   " HTML Starting tags <...>
   hi Function         guifg=#7ad6ff                   gui=none
 
-  hi Statement 	      guifg=#94be54                   gui=bold
+  hi Statement 	      guifg=#5fffd7                   gui=bold
   hi Conditional      guifg=#7aa6c2                   gui=bold
   hi Repeat           guifg=#7aa6c2 guibg=NONE      gui=bold
   hi Label            guifg=#409a50                   gui=bold
@@ -49,9 +38,9 @@ if &background == "dark"
   hi Keyword	        guifg=#adffdd                   gui=none
   hi Exception        guifg=#2080c0 guibg=NONE      gui=bold
 
-  hi PreProc 	        guifg=#2288ee                   gui=bold
-  hi Include 	        guifg=#2288ee                   gui=bold
-  hi Define           guifg=#2288ee                   gui=bold
+  hi PreProc 	        guifg=#d7ffff                   gui=bold
+  hi Include 	        guifg=#d7ffff                  gui=bold
+  hi Define           guifg=#d7ffff                  gui=bold
   hi Macro            guifg=#a68ad2                   gui=none
   hi PreCondit        guifg=#7aa6c2                   gui=none
 
@@ -242,21 +231,21 @@ if &background == "dark"
     hi Constant cterm=bold ctermfg=214
     hi String ctermfg=220
     hi Character ctermfg=171
-    hi Number ctermfg=214
+    hi Number ctermfg=210
     hi Boolean ctermfg=149
     hi Float ctermfg=227
     hi Identifier ctermfg=37 cterm=none
     hi Function ctermfg=117
-    hi Statement cterm=bold ctermfg=149
+    hi Statement cterm=bold ctermfg=86
     hi Conditional cterm=bold ctermfg=110
     hi Repeat cterm=bold ctermfg=110
     hi Label cterm=bold ctermfg=35
     hi Operator ctermfg=67
     hi Keyword ctermfg=158
     hi Exception cterm=bold ctermfg=32
-    hi PreProc cterm=bold ctermfg=33
-    hi Include cterm=bold ctermfg=33
-    hi Define cterm=bold ctermfg=33
+    hi PreProc cterm=bold ctermfg=195
+    hi Include cterm=bold ctermfg=195
+    hi Define cterm=bold ctermfg=195
     hi Macro ctermfg=140
     hi PreCondit ctermfg=110
     hi Type ctermfg=67
@@ -338,7 +327,7 @@ else
   hi Constant         guifg=#0000af guibg=NONE    gui=bold
   hi String           guifg=#0060a0 guibg=NONE
   hi Character        guifg=#9054c7 guibg=NONE    gui=bold
-  hi Number           guifg=#0070c0 guibg=NONE
+  hi Number           guifg=#ff8787 guibg=NONE
   hi Boolean          guifg=#66b600 guibg=NONE    gui=none
   hi Float            guifg=#00a0a0 guibg=NONE
 
